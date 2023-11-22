@@ -1,0 +1,270 @@
+html{
+    font-family: Arial, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/*id*/
+
+/*class*/
+.container{
+    width: 1180px;
+    margin: 0px auto;
+}
+
+.pixfort_normal_1 .header_style{
+    height: 60px;
+    border-bottom: 4px solid #ccc;
+    padding-top: 20px;
+}
+
+.pixfort_normal_1 .alpha{
+    float: left;
+}
+
+.pixfort_normal_1 .omega{
+    float: right;
+}
+
+.slow_fade social_button{
+    text-align: center;
+}
+
+.htext_style{
+    float: left;
+    padding: 7px;
+    color: #DDDDDD;
+
+}
+
+.htext_style .pix_text{
+    /*font*/
+}
+
+.big_padding{
+    height: 670px;
+    background-color: #333333;
+    display: block;
+}
+
+#section_normal_4_2 .alpha .pix_container{
+    display: block;
+    float: right;
+    width: 40%;
+    /*margin: auto 0px;*/
+
+}
+
+.big_padding .omega{
+    width: 50%;
+    float: right;
+}
+
+.pixfort_normal_1 .envato_unbounce{
+    height: 390px;
+    text-align: center;
+    border-bottom: 4px solid darkgray;
+    display: block;
+}
+
+.big_padding .omega {
+     width: 50%;
+     float: right;
+    margin-top: 80px;
+}
+
+span.bold_text.big_text.blue_text.editContent {
+    color: #2DC0E8;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+img.img_style {
+    float: right;
+    margin-right: 50px;
+}
+
+p.big_title.bold_text.editContent {
+    font-size: 60px;
+    margin-top: 35px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+p.normal_text.light_gray.editContent {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    width: 570px;
+    color: #989898;
+    font-size: 21px;
+
+}
+
+a.pix_button.btn_normal.pix_button_flat.blue_bg.bold_text {
+    background-color: aqua;
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+/*    chua lam nut */
+}
+
+
+.big_padding .alpha {
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+
+.envato_unbounce.pix_builder_bg {
+    height: 390px;
+    display: block;
+    background-color: #EEEEEE;
+    padding-top: 15px;
+
+}
+
+.envato_unbounce .pix_builder_bg .container {
+    border-bottom: #DDDDDD 5px;
+}
+
+.L1_style span.editContent.pix_text {
+    color: #696969;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.L2_style span.editContent.pix_text {
+    color: #ABABAB;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.box_1.pix_builder_bg {
+    width: 575px;
+    height: 145px;
+    background-color: #FFFFFF;
+}
+
+.box_1.pix_builder_bg .b_style{
+    float: left;
+    background-color: #F5F5F5;
+    width: 115px;
+    height: 145px;
+    text-align: center;
+}
+
+.box_1.pix_builder_bg .b_style .img.logo_style {
+    /*float: right;*/
+    /*margin-top: 30px;*/
+    /*    hinh anh de giua */
+
+}
+
+.box_1.pix_builder_bg p.txt.editContent {
+    color: #8A8A8A;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.box_1.pix_builder_bg span.stars_span {
+    float: left;
+    margin-left: 15px;
+}
+
+.box_2.pix_builder_bg {
+    width: 575px;
+    height: 145px;
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+
+.box_2.pix_builder_bg .b_style{
+    background-color: #F5F5F5;
+    float: left;
+    width: 115px;
+    height: 145px;
+}
+
+.box_2.pix_builder_bg .b_style .img.logo_style {
+    /*float: right;*/
+    /*margin-top: 30px;*/
+/*    hinh anh de giua */
+}
+
+.box_2.pix_builder_bg p.txt.editContent {
+    color: #8A8A8A;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.box_2.pix_builder_bg span.stars_span {
+    float: left;
+    margin-left: 15px;
+}
+
+.sixteen.columns.center_text {
+    height: 560px;
+    text-align: center;
+}
+
+.sixteen.columns.center_text .f1_style{
+    padding: 75px 0px;
+}
+
+.sixteen.columns.center_text .f1_style span.pix_text {
+    font-size: 35px;
+    color: #5B9A68;
+}
+
+.sixteen.columns.center_text .f2_style{
+    width: 660px;
+    padding: 0px 260px;
+}
+
+.sixteen.columns.center_text .f2_style span.pix_text {
+    font-size: 20px;
+    color: #A9A9A9;
+}
+
+.sixteen.columns.center_text .second_link{
+    width: 320px;
+    height: 85px;
+    margin: 45px 430px;
+    border: green 10px;
+}
+
+a.slow_fade {
+    color: green;
+    font-weight: bolder;
+}
+
+.rights_st{
+    margin-bottom: 15px;
+}
+
+
+span.pix_text {
+    color: #AFAFAF;
+
+}
+
+span.pixfort_st {
+    color: #5B9A68;
+    font-weight: bolder;
+}
+
+.center_btn.center_text.pix_inline_block {
+    margin-top: 40px;
+}
+
+
+
+
+
+

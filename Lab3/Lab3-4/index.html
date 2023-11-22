@@ -1,0 +1,243 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<!--<div class="container">-->
+<!--  <form>-->
+<!--    <div class="row">-->
+<!--      <h4>Account</h4>-->
+<!--      <div class="input-group input-group-icon">-->
+<!--        <input type="text" placeholder="Full Name"/>-->
+<!--        <div class="input-icon"><i class="fa fa-user"></i></div>-->
+<!--      </div>-->
+<!--      <div class="input-group input-group-icon">-->
+<!--        <input type="email" placeholder="Email Adress"/>-->
+<!--        <div class="input-icon"><i class="fa fa-envelope"></i></div>-->
+<!--      </div>-->
+<!--      <div class="input-group input-group-icon">-->
+<!--        <input type="password" placeholder="Password"/>-->
+<!--        <div class="input-icon"><i class="fa fa-key"></i></div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <div class="col-half">-->
+<!--        <h4>Date of Birth</h4>-->
+<!--        <div class="input-group">-->
+<!--          <div class="col-third">-->
+<!--            <input type="text" placeholder="DD"/>-->
+<!--          </div>-->
+<!--          <div class="col-third">-->
+<!--            <input type="text" placeholder="MM"/>-->
+<!--          </div>-->
+<!--          <div class="col-third">-->
+<!--            <input type="text" placeholder="YYYY"/>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-half">-->
+<!--        <h4>Gender</h4>-->
+<!--        <div class="input-group">-->
+<!--          <input id="gender-male" type="radio" name="gender" value="male"/>-->
+<!--          <label for="gender-male">Male</label>-->
+<!--          <input id="gender-female" type="radio" name="gender" value="female"/>-->
+<!--          <label for="gender-female">Female</label>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <h4>Payment Details</h4>-->
+<!--      <div class="input-group">-->
+<!--        <input id="payment-method-card" type="radio" name="payment-method" value="card" checked="true"/>-->
+<!--        <label for="payment-method-card"><span><i class="fa fa-cc-visa"></i>Credit Card</span></label>-->
+<!--        <input id="payment-method-paypal" type="radio" name="payment-method" value="paypal"/>-->
+<!--        <label for="payment-method-paypal"> <span><i class="fa fa-cc-paypal"></i>Paypal</span></label>-->
+<!--      </div>-->
+<!--      <div class="input-group input-group-icon">-->
+<!--        <input type="text" placeholder="Card Number"/>-->
+<!--        <div class="input-icon"><i class="fa fa-credit-card"></i></div>-->
+<!--      </div>-->
+<!--      <div class="col-half">-->
+<!--        <div class="input-group input-group-icon">-->
+<!--          <input type="text" placeholder="Card CVC"/>-->
+<!--          <div class="input-icon"><i class="fa fa-user"></i></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-half">-->
+<!--        <div class="input-group">-->
+<!--          <select>-->
+<!--            <option>01 Jan</option>-->
+<!--            <option>02 Jan</option>-->
+<!--          </select>-->
+<!--          <select>-->
+<!--            <option>2015</option>-->
+<!--            <option>2016</option>-->
+<!--          </select>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <h4>Terms and Conditions</h4>-->
+<!--      <div class="input-group">-->
+<!--        <input id="terms" type="checkbox"/>-->
+<!--        <label for="terms">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </form>-->
+<!--</div>-->
+
+<div class="background">
+  <div class="container">
+    <div class="account">
+      <span>Account</span>
+    </div>
+
+    <div class="box-full-name">
+      <div class="img">
+        <div class="border-right">
+          <span><i class="fa-solid fa-user"></i></span>
+        </div>
+      </div>
+
+      <div class="input">
+        <input type="text" placeholder="Full Name">
+      </div>
+
+    </div>
+
+    <div class="box-email-address">
+      <div class="img">
+        <div class="border-right">
+          <span><i class="fa-solid fa-envelope"></i></span>
+        </div>
+      </div>
+
+      <div class="input">
+        <input type="text" placeholder="Email Address">
+      </div>
+    </div>
+
+    <div class="box-password">
+      <div class="img">
+        <div class="border-right">
+          <span><i class="fa-solid fa-key"></i></span>
+        </div>
+      </div>
+
+      <div class="input">
+        <input type="text" placeholder="Password">
+      </div>
+    </div>
+
+    <div class="date-of-birth-and-gender">
+      <div class="date-of-birth">
+        <span>Date of birth</span>
+        <div class="input-dd-mm-yy">
+          <div class="box-dd-mm-yy">
+            <input type="text" placeholder="DD">
+          </div>
+          <div class="box-dd-mm-yy">
+            <input type="text" placeholder="MM">
+          </div>
+          <div class="box-dd-mm-yy">
+            <input type="text" placeholder="YY">
+          </div>
+        </div>
+      </div>
+
+      <div class="gender">
+        <span>Gender</span>
+        <div class="button-male-female">
+            <button>Male</button>
+            <button>Female</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="payment-details">
+      <div class="payment-title">
+        <span>Payment Details</span>
+      </div>
+      <div class="button-credit-card-and-paypal">
+        <button class="button-credit"><i class="fa-brands fa-cc-visa"></i> Credit Card</button>
+        <button class="button-paypal"><i class="fa-brands fa-cc-paypal"></i> Paypal</button>
+      </div>
+
+      <div class="input-card-number">
+        <div class="img">
+          <div class="border-right">
+            <i class="fa-solid fa-credit-card"></i>
+          </div>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="Card Number">
+        </div>
+      </div>
+
+      <div class="card-cvc-and-date">
+        <div class="card-cvc">
+          <div class="img">
+            <div class="border-right">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <div class="input">
+            <input type="text" placeholder="Card CVC">
+          </div>
+        </div>
+        <div class="date">
+            <select>
+              <option>01 Jan</option>
+              <option>02 Jan</option>
+            </select>
+            <select>
+              <option>2015</option>
+              <option>2016</option>
+            </select>
+          </div>
+
+        </div>
+      <div class="terms-and-conditions">
+        <span>Terms and Conditions</span>
+      </div>
+
+      <div class="input-i-accept">
+        <div class="check-box">
+          <input type="checkbox">
+        </div>
+        <div class="i-accept">
+          <span>I accpet the terms and conditions for signing up to this service, and hereby confirm i have read the privacy policy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

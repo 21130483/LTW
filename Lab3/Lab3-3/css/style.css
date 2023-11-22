@@ -1,0 +1,132 @@
+*{
+  padding: 0px;
+  margin: 0;
+  font-size: 12px;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.background{
+  width: 100%;
+  height: 1000px;
+  background-color: #b3d4fc;
+  padding: 20px;
+}
+
+.table{
+  width: 280px;
+  height: 600px;
+  margin: auto;
+  background-color: #F3F3F3;
+  padding: 80px 55px 30px;
+  border-radius: 20px;
+}
+
+.sign-in{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.sign-in span{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #44174E  ;
+}
+
+.username{
+  margin-bottom: 20px;
+}
+
+.password{
+  margin-bottom: 20px;
+
+}
+
+.input{
+  width: 100%;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+input.input{
+  font-size: 25px;
+}
+
+input.input::placeholder{
+  color: #44174E;
+}
+
+
+.button-sign-in{
+  text-align: center;
+}
+
+.button-sign-in button{
+  background-color: #bd59d4;
+  border: none;
+  width: 160px;
+  height: 50px;
+  padding: 0px 20px;
+  border-radius: 20px;
+  color: white;
+
+}
+
+.or-login-with{
+  width: 100%;
+  text-align: center;
+  padding: 60px 0px 20px;
+}
+
+.or-login-with span{
+  color: #999999;
+  font-size: 16px;
+}
+
+.facebook-google{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 112px ;
+}
+
+.fabook{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+
+}
+
+.google{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+
+}
+
+.facebook-google i{
+  font-size: 25px;
+}
+
+.sign-up{
+  width: 100%;
+  text-align: center;
+}
+
+.sign-up a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}

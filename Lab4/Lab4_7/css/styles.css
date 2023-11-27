@@ -1,0 +1,11 @@
+#button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+button {
+  width: 100px;
+  height:100px;
+  font-size: 14px;
+}

@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Tahoma,Arial,sans-serif;
+}
+
+.background{
+    width: 100%;
+    height: 800px;
+    background-color: #cccccc;
+    padding: 20px;
+
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.account{
+    padding-bottom: 15px;
+}
+
+.account span{
+    color:#7BD21D;
+    font-weight: bolder;
+}
+
+.box-full-name{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #B9B9B9;
+}
+
+.img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.border-right{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right:1px solid #B9B9B9;
+}
+
+.img i{
+    color: #B9B9B9;
+}
+
+.box-full-name input{
+    float: right;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+}
+
+.box-email-address{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #B9B9B9;
+}
+
+.box-email-address .img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #F9F9F9;
+}
+
+.box-email-address input{
+    float: right;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+}
+
+.box-password{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #B9B9B9;
+}
+
+.box-password .img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #F9F9F9;
+}
+
+.box-password input{
+    float: right;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+}
+
+.date-of-birth-and-gender{
+    height: 50px;
+}
+
+.date-of-birth{
+    width: 50%;
+    float: left;
+}
+
+.date-of-birth span{
+    color: #7BD21D;
+    font-weight: bolder;
+}
+
+.input-dd-mm-yy{
+    display: flex;
+}
+
+
+.box-dd-mm-yy{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.input-dd-mm-yy input{
+    width: 68px;
+    height: 25px;
+    text-align: center;
+    background-color: #F9F9F9;
+    border: 1px solid #E8E8E8;
+}
+
+.gender{
+    width: 50%;
+    float: right;
+}
+
+.gender span{
+    color: #7BD21D;
+    font-weight: bolder;
+    display: flex;
+}
+
+.button-male-female{
+    padding-top: 11px;
+}
+
+.gender button{
+    background-color: #F9F9F9;
+    color: #C3C3C3;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #E8E8E8;
+}
+
+.payment-details{
+    display: block;
+    width: 100%;
+    height: 260px;
+    margin-top: 25px;
+}
+
+.payment-title{
+    width: 100%;
+}
+.payment-title span{
+    color: #7BD21D;
+    font-weight: bolder;
+    display: flex;
+}
+
+.button-credit-card-and-paypal{
+    margin-top: 15px;
+    display: flex;
+}
+.button-credit-card-and-paypal button{
+    width: 50%;
+    height: 55px;
+    font-size: 20px;
+}
+
+.button-credit{
+    background-color: #7ED321;
+    border: 1px solid #6BB21E;
+    color: white;
+}
+
+.button-paypal{
+    background-color: #F9F9F9;
+    border: 1px solid #EAEAEA;
+    color: #B9B9B9;
+}
+
+.button-credit-card-and-paypal i{
+    font-size: 20px;
+}
+
+.input-card-number{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #B9B9B9;
+    margin-bottom: 10px;
+
+}
+
+.input-card-number input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+}
+
+.card-cvc-and-date{
+
+    width: 100%;
+    display: flex;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.card-cvc{
+    width: 47%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #B9B9B9;
+}
+
+.card-cvc-and-date input{
+    width: 185px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+}
+
+.date{
+    width: 50%;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.date select{
+    height: 40px;
+    border: 1px solid #B9B9B9;
+    width: 50%;
+    background-color: #F9F9F9;
+
+
+}
+
+.terms-and-conditions{
+    margin-bottom: 15px;
+}
+
+.terms-and-conditions span{
+    color: #7BD21D;
+    font-weight: bolder;
+    display: flex;
+}
+
+.input-i-accept{
+    display: flex;
+}
+
+.input-i-accept span{
+    color: #BCBCBC;
+    font-size: 15px;
+}
+
+.check-box{
+    padding-top: 5px;
+}
+
+/*.box-email-address{*/
+/*  width: 100%;*/
+/*  height: 40px;*/
+/*  margin-bottom: 10px;*/
+/*  border: 1px solid #B9B9B9;*/
+/*}*/
+
+/*.box-email-address .img{*/
+/*  float: left;*/
+/*  width: 40px;*/
+/*  height: 40px;*/
+/*  background-color: #F9F9F9;*/
+/*}*/
+
+/*.box-email-address input{*/
+/*  float: right;*/
+/*  width: 450px;*/
+/*  height: 40px;*/
+/*  border: none;*/
+/*  outline: none;*/
+/*  background-color: #F9F9F9;*/
+/*  padding-left: 10px;*/
+/*}*/
